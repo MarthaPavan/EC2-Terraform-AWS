@@ -5,7 +5,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-
+#Added comment in backend.tf
   backend "s3" {
     bucket = "mt25009-statefile" # <-- your existing S3 bucket
     key    = "ec2/terraform.tfstate"           # path inside bucket
