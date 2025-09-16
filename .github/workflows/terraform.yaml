@@ -1,10 +1,10 @@
 name: Terraform Deploy EC2
 
 on:
-  push:
-    branches: [ "main" ]   # Runs when you push to main
-  schedule:
-    - cron: "*/10 * * * *"
+  # push:
+  #   branches: [ "main" ]   # Runs when you push to main
+  # schedule:
+  #   - cron: "*/10 * * * *"
   workflow_dispatch:       # Allows manual trigger
 
 jobs:
